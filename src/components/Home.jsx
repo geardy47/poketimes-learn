@@ -33,12 +33,7 @@ class Home extends React.Component {
     ) : (
       <div className='center'>No post yet</div>
     );
-    return (
-      <div className='container'>
-        <h4 className='center'>Home</h4>
-        {postList}
-      </div>
-    );
+    return <div className='container'>{postList}</div>;
   }
 }
 
